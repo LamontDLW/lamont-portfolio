@@ -1,0 +1,11 @@
+footer {
+    padding: 30px 10px;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p span {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}

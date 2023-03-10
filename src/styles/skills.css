@@ -1,0 +1,138 @@
+/* SKILLS */
+.skills-section {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #18203A;
+    padding: 80px 60px;
+}
+
+.skills-section h1 {
+    color: #A1B3F3;
+
+    font-weight: 100;
+    font-size: 40px;
+
+    letter-spacing: 0.5rem;
+}
+
+/* TECH */
+.tech {
+    background-color: #2E385A;
+    color: #A1B3F3;
+
+    margin: 20px 0px;
+    padding: 20px;
+
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.tech h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+
+    margin-top: 10px;
+}
+
+/* Tech List */
+.tech-list {
+    padding: 10px;
+}
+.tech-list img {
+    height: 90px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.tech-list p {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* TOOLS */
+.tools {
+    background-color: #223571;
+    color: #A1B3F3;
+
+    margin: 20px 0px;
+    padding: 20px;
+
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.tools h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+
+    margin-top: 10px;
+}
+
+/* Tech List */
+.tools-list {
+    padding: 10px;
+}
+.tools-list img {
+    height: 90px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.tools-list p {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* WORKING ON: */
+.working-on h2 {
+    color: #455482;
+
+    font-weight: 100;
+    font-size: 30px;
+
+    letter-spacing: 0.5rem;
+    margin-top: 40px;
+    
+}
+/* Learning Grid */
+.learning-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+
+    margin-top: 20px;
+}
+
+.lg-grid {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #A1B3F3;
+
+    padding: 30px 40px;
+
+    border-radius: 1rem;
+}
+
+.learning-grid p {
+    margin: 10px 0px;
+    width: calc(100% - 20%);
+}
+
+.date {
+    font-style: italic;
+}

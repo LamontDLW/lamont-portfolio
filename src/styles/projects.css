@@ -1,0 +1,93 @@
+/* PROJECTS */
+.Projects {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: inherit;
+    padding-block: 80px;
+    padding-inline: 0;
+}
+
+.Projects h1 {
+    padding-inline: 60px;
+    font-weight: 100;
+    font-size: 40px;
+
+    letter-spacing: 0.5rem;
+}
+
+/* Project Grid */
+.project-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    font-family: 'Open Sans';
+    padding-inline: 60px 20px;
+}
+
+.pj-grid {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgba(126, 105, 105, 0.2);
+    margin-block: 20px;
+
+    border-radius: 1.5rem;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+}
+
+.pj-grid:hover {
+    transform: scale(1.02); 
+}
+
+/* Project Img */
+.project-img {
+    height: 300px;
+    width: auto;
+}
+
+.project-img img {
+    height: 100%;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+/* Project Info */
+.project-info {
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-block: auto;
+}
+.project-info h6 {
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.project-info p {
+    white-space: normal;
+    margin-block: 10px;
+}
+ 
+/* Button Section */
+.button-section button {
+    background-color: #0A0503;
+    color: #7E6969;
+    border: none;
+
+    font-family: 'Gill Sans';
+    font-weight: 500;
+    font-size: 15px;
+
+    padding: 15px 25px;
+    margin: 10px;
+    margin-left: 0;
+
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.button-section button:hover {
+    background-color: #7E6969;
+    color: #0A0503;
+}

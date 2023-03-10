@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+/* HERO INTRO */
+.hero-intro-nav { flex-direction: column; }
+
+/* PROJECTS */
+.Projects h1 { padding-inline: 20px; } 
+.project-grid { padding-inline: 20px; }
+.pj-grid { flex-direction: column; }
+.project-img { height: 200px; }
+.project-img img {  border-top-left-radius: 1.5rem; border-top-right-radius: 1.5rem; border-bottom-left-radius: 0; }
+.project-info { margin: 30px; }
+
+/* SKILLS */
+.skills-section { padding: 40px 20px }
+.skills-section h1 { text-align: center; }
+.tech-grid { grid-template-columns: 1fr 1fr; }
+.tools-grid { grid-template-columns: 1fr 1fr; }
+.working-on h2 { text-align: center; }
+.learning-grid { grid-template-columns: 1fr; }
+.learning-grid p { width: calc(100% - 10%); }
+
+/* ABOUT */
+.about-info p { font-size: 25px; }
+.music-card { padding: 15px 20px; flex-direction: column; border-radius: 2.5rem;}
+.card-info { margin: 20px 0px; }
+.card-info h3 { font-size: 17px; }
+.card-info h2 { font-size: 30px;}
+.card-info h4 { font-size: 25px;}
+.tidbit-grid { grid-template-columns: 1fr; }
+
+}

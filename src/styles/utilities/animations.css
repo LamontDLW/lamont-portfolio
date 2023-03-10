@@ -1,0 +1,4 @@
+/* ANIMATIONS */
+/* Image Upscale */
+img { transition: all 0.2s ease-in-out; }
+.icon-upscale:hover { transform: scale(1.15); }
